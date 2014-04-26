@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>photoRemote</title>
+
+	<style type="text/css">
+
+		body {
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body>
+	<p>make a photo</p>
+	
+	<img src="Content/@Model.ImagePath" alt="last image"/>
+</body>
+</html>
