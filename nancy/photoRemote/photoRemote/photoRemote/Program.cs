@@ -1,4 +1,7 @@
-﻿namespace photoRemote
+﻿using System.Linq;
+using System.Threading;
+
+namespace photoRemote
 {
 	using System;
 	using Nancy.Hosting.Self;
