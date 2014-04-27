@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>photoRemote</title>
+
+	<style type="text/css">
+
+		body {
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body>
+	<p>all images</p>
+	<ol>
+	@Each
+		<li>
+			<div>
+				<h3>@Current.Caption</h3>
+				<h5>@Current.Date @Current.Path</h5>
+			</div>
+		</li>
+	@EndEach
+	<ol>
+</body>
+</html>

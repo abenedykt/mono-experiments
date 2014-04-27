@@ -46,8 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICameraStorage.cs" />
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="IndexModule.cs" />
+    <Compile Include="Camera\CameraRemote.cs" />
+    <Compile Include="Abstract\ICameraImage.cs" />
+    <Compile Include="Abstract\ICameraRemote.cs" />
+    <Compile Include="Camera\CameraStorage.cs" />
+    <Compile Include="Modules\IndexModule.cs" />
+    <Compile Include="Modules\PhotoModel.cs" />
+    <Compile Include="Modules\PhotoModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,6 +64,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Views\parameters.sshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Views\Photo\make.sshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Views\Photo\last.sshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Views\Photo\all.sshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Views\photo.sshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
