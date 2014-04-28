@@ -1,0 +1,4 @@
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\photoCore.Abstract.dll
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\photoCore.Abstract.pdb
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoCore.Abstract\obj\Debug\photoCore.Abstract.dll
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoCore.Abstract\obj\Debug\photoCore.Abstract.pdb

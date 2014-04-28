@@ -1,4 +1,4 @@
-﻿namespace photoRemote.Abstract
+﻿namespace photoCore.Abstract
 {
 	public interface ICameraRemote
 	{

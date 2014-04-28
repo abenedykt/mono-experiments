@@ -1,6 +1,6 @@
-﻿using photoRemote.Abstract;
+﻿using photoCore.Abstract;
 
-namespace photoRemote.Camera
+namespace photoCore.Camera
 {
 	public class CameraRemote : ICameraRemote
 	{

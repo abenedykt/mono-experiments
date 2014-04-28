@@ -1,7 +1,8 @@
 ﻿using System;
 
-namespace photoRemote.Abstract
+namespace photoCore.Abstract
 {
+
 	public interface ICameraImage
 	{
 		DateTime Date { get; }

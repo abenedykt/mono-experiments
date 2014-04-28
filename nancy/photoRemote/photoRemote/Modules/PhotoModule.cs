@@ -1,5 +1,5 @@
 using Nancy;
-using photoRemote.Abstract;
+using photoCore.Abstract;
 
 namespace photoRemote.Modules
 {

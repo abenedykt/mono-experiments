@@ -1,1 +1,0 @@
-/home/pi/csharp/nancy/photoRemote/photoRemote/photoRemote/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs

@@ -19,7 +19,7 @@
     <DebugSymbols>True</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>False</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\output\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -46,12 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\ICameraStorage.cs" />
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Camera\CameraRemote.cs" />
-    <Compile Include="Abstract\ICameraImage.cs" />
-    <Compile Include="Abstract\ICameraRemote.cs" />
-    <Compile Include="Camera\CameraStorage.cs" />
     <Compile Include="Modules\IndexModule.cs" />
     <Compile Include="Modules\PhotoModel.cs" />
     <Compile Include="Modules\PhotoModule.cs" />
@@ -79,11 +74,20 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Content\nancy-logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\photoCore.Abstract\photoCore.Abstract.csproj">
+      <Project>{6DC3B9EC-AA8B-499D-9902-35BC56BDD45C}</Project>
+      <Name>photoCore.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\photoCore\photoCore.csproj">
+      <Project>{9C06AD1D-08BC-4F16-8E22-E70C47D13EEE}</Project>
+      <Name>photoCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

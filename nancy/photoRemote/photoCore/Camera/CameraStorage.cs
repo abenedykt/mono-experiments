@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using photoRemote.Abstract;
+using photoCore.Abstract;
 
-namespace photoRemote.Camera
+namespace photoCore.Camera
 {
 	public class CameraStorage : ICameraStorage
 	{

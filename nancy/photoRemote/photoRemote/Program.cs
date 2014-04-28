@@ -27,7 +27,6 @@ namespace photoRemote
 					Console.ReadLine();
 					host.Stop();
 	            }
-
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace photoRemote.Abstract
+namespace photoCore.Abstract
 {
 	public interface ICameraStorage
 	{
