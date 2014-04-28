@@ -84,10 +84,6 @@
       <Project>{6DC3B9EC-AA8B-499D-9902-35BC56BDD45C}</Project>
       <Name>photoCore.Abstract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\photoCore\photoCore.csproj">
-      <Project>{9C06AD1D-08BC-4F16-8E22-E70C47D13EEE}</Project>
-      <Name>photoCore</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

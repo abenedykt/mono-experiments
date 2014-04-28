@@ -1,4 +1,4 @@
-﻿using photoCore.Camera;
+﻿using Nancy.Bootstrapper;
 
 namespace photoRemote
 {
@@ -12,14 +12,7 @@ namespace photoRemote
 
 		public Bootstrapper()
 		{
-			LoadAssemblies();
-
-		}
-
-		public static void LoadAssemblies()
-		{
-			CameraRemote remote = null;
-			CameraStorage storage = null;
+			AppDomainAssemblyTypeScanner.AddAssembliesToScan("photoCore.dll");
 		}
 	}
 }
