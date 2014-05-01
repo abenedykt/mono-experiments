@@ -10,3 +10,7 @@ C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\photoRe
 C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoRemote\obj\Debug\photoRemote.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoRemote\obj\Debug\photoRemote.exe
 C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoRemote\obj\Debug\photoRemote.pdb
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\Views\master.sshtml
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\Content\style.css
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\Content\style.css.map
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\Content\style.less

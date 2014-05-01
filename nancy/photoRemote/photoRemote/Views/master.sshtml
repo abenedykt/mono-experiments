@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PhotoRemote</title>
+	<link rel="stylesheet" type="text/css" href="@Path['~/Content/style.css']" />
+</head>
+<body>
+	<nav>
+		<ol>
+			<li>last photo</li>
+			<li>photots</li>
+			<li>settings</li>
+			<li>log</li>
+		</ol>
+	</nav>
+	<div id='content'>
+		@Section['Content']
+	</div>
+</body>
+</html>
