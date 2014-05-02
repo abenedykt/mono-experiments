@@ -9,10 +9,10 @@
 <body>
 	<nav>
 		<ol>
-			<li>last photo</li>
-			<li>photots</li>
-			<li>settings</li>
-			<li>log</li>
+			<li><a href="/photo/last" alt="last photo">last photo</a></li>
+			<li><a href="/photo/all" alt="last photo">photots</a></li>
+			<li><a href="/settings" alt="last photo">settings</a></li>
+			<li><a href="/log" alt="last photo">log</a></li>
 		</ol>
 	</nav>
 	<div id='content'>

@@ -9,6 +9,8 @@ namespace photoRemote.Modules
 			Get["/"] = parameters => View["index"];
 
 			Get ["/settings"] = _ => View ["parameters"];
+			
+			Get ["/log"] = _ => View ["log"];
 
 			Get["/photo"] = _ => View[new PhotoModel()];
 		}
