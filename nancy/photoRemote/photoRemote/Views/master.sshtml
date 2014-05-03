@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PhotoRemote</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="@Path['~/Content/style.css']" />
+
+</head>
+<body>
+	<nav>
+		<ol>
+			<li><a href="/photo/last" alt="last photo">last photo</a></li>
+			<li><a href="/photo/all" alt="last photo">photots</a></li>
+			<li><a href="/settings" alt="last photo">settings</a></li>
+			<li><a href="/log" alt="last photo">log</a></li>
+		</ol>
+	</nav>
+	<div id='content'>
+		@Section['Content']
+	</div>
+</body>
+</html>

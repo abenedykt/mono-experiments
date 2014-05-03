@@ -3,7 +3,5 @@
 @Section['Content']
 	<div class="jumbotron">
 		remote photo
-
-		todo:  show currently connected camera
 	</div>
 @EndSection

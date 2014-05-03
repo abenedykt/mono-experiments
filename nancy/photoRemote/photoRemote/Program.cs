@@ -10,8 +10,7 @@ namespace photoRemote
 	{
 		static void Main(string[] args)
 		{
-			var uri =
-				new Uri("http://localhost:8888");
+			var uri = new Uri("http://localhost:8888");
 
 			using (var host = new NancyHost(uri))
 			{
@@ -28,7 +27,6 @@ namespace photoRemote
 					Console.ReadLine();
 					host.Stop();
 	            }
-
 			}
 		}
 	}

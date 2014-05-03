@@ -1,0 +1,5 @@
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\photoCore.dll
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\output\photoCore.pdb
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoCore\obj\Debug\photoCore.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoCore\obj\Debug\photoCore.dll
+C:\Visual Studio Projects\180_days_project\mono-experiments\nancy\photoRemote\photoCore\obj\Debug\photoCore.pdb
