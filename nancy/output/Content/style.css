@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+#content {
+  padding-top: 4em;
+}
 nav {
   background-color: gainsboro;
   width: 100%;
