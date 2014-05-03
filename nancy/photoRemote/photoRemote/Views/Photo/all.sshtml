@@ -1,20 +1,6 @@
-﻿
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>photoRemote</title>
+﻿@Master['master.sshtml']
 
-	<style type="text/css">
-
-		body {
-			text-align: center;
-		}
-
-	</style>
-
-</head>
-<body>
+@Section['Content']
 	<p>all images</p>
 	<ol>
 	@Each
@@ -26,5 +12,4 @@
 		</li>
 	@EndEach
 	<ol>
-</body>
-</html>
+@EndSection
