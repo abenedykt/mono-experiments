@@ -1,23 +1,9 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>photoRemote</title>
+﻿@Master['master.sshtml']
 
-	<style type="text/css">
-
-		body {
-			text-align: center;
-		}
-
-	</style>
-
-</head>
-<body>
+@Section['Content']
 	<ol>
 		<li>shutter speed</li>
 		<li>aperture</li>
 		<li>iso</li>
 	</ol>
-</body>
-</html>
+@EndSection
