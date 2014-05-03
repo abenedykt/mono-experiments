@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <title>PhotoRemote</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="@Path['~/Content/style.css']" />
+
 </head>
 <body>
 	<nav>
