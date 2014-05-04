@@ -1,15 +1,19 @@
 ﻿@Master['master.sshtml']
 
 @Section['Content']
+	<div ng-app ng-controller="AllPicsCtrl">
 	<p>all images</p>
+	<h1>{{images.count}}</h1>
+	<input ng-model="imageFilter"/>
 	<ol>
-	@Each
-		<li>
+		<li ng-repeat="image in images.items | filter : imageFilter">
 			<div>
-				<h3>@Current.Caption</h3>
-				<h5>@Current.Date @Current.Path</h5>
+				<a href="{{image.url}}">
+					<h3>{{image.name}}</h3>
+					<h5>{{image.date}}</h5>
+				</a>
 			</div>
 		</li>
-	@EndEach
 	<ol>
+	</div>
 @EndSection

@@ -6,6 +6,8 @@
     <title>PhotoRemote</title>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="@Path['~/Content/style.css']" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	<script src="@Path['~/Content/Scripts/app.js']"></script>
 
 </head>
 <body>
